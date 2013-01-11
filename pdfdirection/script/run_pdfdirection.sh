@@ -21,7 +21,7 @@
 
 BASEDIR=$(cd $(dirname $0);pwd)
 
-cd $BASEDIR/../
+#cd $BASEDIR/../
 
 # FeedReaderの実行
 java -cp $BASEDIR/../lib/\*:$BASEDIR/../lib_ext/\* \
